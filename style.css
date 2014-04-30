@@ -1,0 +1,138 @@
+body
+{
+	background-image:url('hexa.png');
+	color: rgb(134, 132, 131);
+	font-family: Arial, sans-serif;
+	font-size:13px;
+}
+h1
+{
+	color:#bd3d00;
+}
+#tid_popup {
+position: absolute;
+width: 100%;
+/*height: 100%;*/
+z-index: 1008;
+}
+
+#tid_popup div.tid_content {
+position: absolute;
+z-index: 1009;
+width: 100%;
+/*height: 100%;*/
+}
+
+#tid_popup div.tid_content .tid_popup {
+padding: 10px;
+background-color: #dddbd8;
+background-image: url("http://data.twinoid.com/img/design/content_bg.jpg");
+background-repeat: repeat-x;
+border: 1px solid white;
+-moz-box-shadow: 0px 2px 4px black;
+-webkit-box-shadow: 0px 2px 4px black;
+box-shadow: 0px 2px 4px black;
+-moz-box-shadow: 0px 0px 1px rgba(0,0,0, 0.4), 0px 2px 4px rgba(0,0,0, 0.3);
+-webkit-box-shadow: 0px 0px 1px rgba(0,0,0, 0.4), 0px 2px 4px rgba(0,0,0, 0.3);
+box-shadow: 0px 0px 1px rgba(0,0,0, 0.4), 0px 2px 4px rgba(0,0,0, 0.3);
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+/*max-width: 800px;*/
+width: 800px;
+margin: auto;
+margin-top: 50px;
+padding-bottom: 20px;
+}
+
+button
+{
+	background-image:url('wave.png');
+	border-radius:5px;
+	color:white;
+	border:1px solid #DD5C20;
+	cursor:pointer;
+}
+button:hover
+{	
+	color:#ffdca0;
+	border:1px solid #bd3d00;
+}
+button:active
+{
+	color:#bd3d00;
+}
+
+#credit
+{
+	position:absolute;
+	width: 800px;
+}
+#credit>div
+{
+	position:absolute;
+	right: 0px;
+	font-style:italic;
+}
+#credit a
+{
+	color:inherit;
+}
+
+#appamis
+{
+	background-color:#626262;
+	width:800px;
+	height:150px;
+	margin-bottom:10px;
+}
+#conteneur
+{
+	background-color:#EEF2FE;
+	width:100%;
+	height:108px;
+	box-shadow: 0px 3px 3px black ;
+	color:black;
+}
+	
+	#texte
+	{
+		
+		color:black;
+		text-shadow: 2px 2px 4px black;
+		height:108px;
+		display:table-cell;
+		vertical-align:middle;
+		opacity:0;
+		text-align:center;
+		width:690px;
+	}
+	
+	#texte a
+	{
+		color:black;
+	}
+	
+	#juliiiiien
+	{
+		float:left;
+		width:144px;
+		height:123px;
+	}
+	
+	#texte a
+	{
+		font-family:"Courier New";
+		cursor:pointer;
+		text-decoration:none;
+	}
+	
+	#conditions
+	{
+	font-size:1px;
+	color:black;
+	}
+	#forceReload
+	{
+		display:none;
+	}
